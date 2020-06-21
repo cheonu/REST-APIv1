@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "REST-API"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1d2wl8i3oo99v"
+s3_prefix = "REST-API"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
